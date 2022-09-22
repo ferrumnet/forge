@@ -1,2 +1,2 @@
 var bunyan = require('bunyan');
-module.exports = bunyan.createLogger({"name": "Iron Vest Vesting Portal Backend","level": 10});
+module.exports = bunyan.createLogger({"name": "Forged","level": 10});
