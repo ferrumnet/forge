@@ -45,3 +45,4 @@ public/
 dockerBuild.sh
 package-lock.json
 build/
+.env/
