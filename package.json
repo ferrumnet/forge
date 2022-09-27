@@ -1,7 +1,7 @@
 {
-  "name": "Forged",
+  "name": "Forge",
   "version": "0.1.0",
-  "description": "Forged",
+  "description": "Forge",
   "main": "index.js",
   "license": "ISC",
   "scripts": {

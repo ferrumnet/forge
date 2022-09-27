@@ -1,4 +1,4 @@
-# Forged Backend
+# Forge
 Install the dependencies:
 ```bash
 sudo npm i

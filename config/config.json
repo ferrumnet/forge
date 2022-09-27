@@ -47,13 +47,13 @@
   "gmail": {
     "service": "gmail",
     "transportMethod": "SMTP",
-    "appName": "Forged",
+    "appName": "Forge",
     "auth": {
       "user": "",
       "pass": ""
     }
   },
   "appInfo": {
-    "appName": "Forged"
+    "appName": "Forge"
   }
 }
