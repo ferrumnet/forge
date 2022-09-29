@@ -1,5 +1,5 @@
 {
   "port": "8080",
   "jwtSecret": "",
-  "networkBaseUrl": ""
+  "networkBaseUrl": "https://api-leaderboard.dev.svcs.ferrumnetwork.io/api/v1/networks/"
 }
