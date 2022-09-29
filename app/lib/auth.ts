@@ -9,7 +9,7 @@ module.exports = function () {
       try {
         const token = req.headers.authorization.split(' ')[1];
 
-        const decoded = jwt.verify(token, process.env.jwtSecret);
+        const decoded = jwt.verify(token, (global as any).environment.jwtSecret);
         if (!decoded) {
           return res.http401('Invalid token');
         }
