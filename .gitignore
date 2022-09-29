@@ -39,7 +39,7 @@ files/
 config/database.js
 accounts.txt
 config/pm2.json
-config/docker.environment.json
+config/environment.json
 public/
 /.serverless
 dockerBuild.sh

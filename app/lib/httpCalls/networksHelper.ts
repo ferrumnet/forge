@@ -5,7 +5,7 @@ var { Big } =  require("big.js");
 module.exports = {
   async getNetworkByChainId(chainId: any) {
     try {
-      let url = `${process.env.networkBaseUrl}${chainId}`;
+      let url = `${(global as any).environment.networkBaseUrl}${chainId}`;
       let res = await axios.get(url);
       return res.data.body.network;
     } catch (error) {
