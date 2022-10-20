@@ -11,6 +11,10 @@ copy all the key/values from config/environment-sample.json and past here
 
 ## local:
 ```bash
+npm run dev-start
+or
+nodemon server.ts
+or
 npm run nodemon-dev
 ```
 

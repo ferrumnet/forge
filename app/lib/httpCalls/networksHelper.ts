@@ -5,7 +5,8 @@ var { Big } =  require("big.js");
 module.exports = {
   async getNetworkByChainId(chainId: any) {
     try {
-      let url = `${(global as any).environment.networkBaseUrl}${chainId}`;
+      let baseUrl = 'https://api-leaderboard.dev.svcs.ferrumnetwork.io/api/v1/networks/'; 
+      let url = `${baseUrl}${chainId}`;
       let res = await axios.get(url);
       return res.data.body.network;
     } catch (error) {

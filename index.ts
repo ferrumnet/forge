@@ -34,7 +34,6 @@ app.use(function (req: any, res: any, next: any) {
 app.use(cors());
 (global as any).utils = require("./app/lib/middlewares/utils")();
 (global as any).db = require("./app/models/index");
-(global as any).helper = require("./app/lib/middlewares/helpers/dateHelper");
 (global as any).stringHelper = require("./app/lib/middlewares/helpers/stringHelper");
 (global as any).startHelper = require("./app/lib/middlewares/helpers/startHelper");
 (global as any).starterEnvironment = (global as any).startHelper.startHelperInit(process);
