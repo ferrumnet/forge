@@ -37,7 +37,6 @@ app.use(cors());
 (global as any).stringHelper = require("./app/lib/middlewares/helpers/stringHelper");
 (global as any).startHelper = require("./app/lib/middlewares/helpers/startHelper");
 (global as any).starterEnvironment = (global as any).startHelper.startHelperInit(process);
-(global as any).environment = require("./config/environment.json");
 (global as any).starterEnvironment = (global as any).startHelper.startHelperInit(process);
 console.log((global as any).starterEnvironment);
 (global as any).log = require("./app/lib/logger");
